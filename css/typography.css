@@ -1,7 +1,9 @@
 /*
   Colour Palette
-  - Dark green: #060 - rgb(0, 100, 0)
-  - Dark red: #600 - rgb(100, 0, 0)
+  - Light Pink: #FFDBDB - rgb(255,219,219)
+  - Medium Pink: #FFC2C3 - rgb(255,194,195)
+  - Darker Pink: #FF797C - rgb(255,121,124)
+  - Bright Pink: #FF4B4E - rgb(255,75,78)
  */
 
 html {
@@ -97,7 +99,7 @@ a,
 a:link {
 	color: #FFC2C3;
 	text-decoration: none; 
-	border-bottom: 0.1em solid rgba(0,255,194,195.5);
+	border-bottom: 0.1em solid rgba(255,194,195.5);
 	transition: all 200ms linear; 
 }
 
