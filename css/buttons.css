@@ -16,9 +16,7 @@
 	padding: .5em 1.5em;
 	background-color: #FFDBDB; 
 	background-image: linear-gradient(to bottom, #FFD3D4, #FFA9AA); 
-	
-	border-radius: 2px; 
-	box-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+	/*box-shadow: 1px 1px 3px rgba(0,0,0,0.5);*/
 	color: #fff; 
 	border: 0;
 }

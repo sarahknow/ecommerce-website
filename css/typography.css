@@ -257,6 +257,9 @@ data {
 	text-decoration:none;
 }
 
+.space-none {
+	margin-bottom: 0;
+}
 
 /*  data */
 
