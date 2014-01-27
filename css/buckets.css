@@ -9,3 +9,17 @@
 	text-align:center;
 	margin:auto;
 }
+
+
+.small-bucket {
+	width: 100%;
+	background: #F7F7F7;
+	padding: 1rem;
+	overflow:auto;
+	display: inline-block;
+	float: left;
+	margin: auto;
+}
+
+
+
