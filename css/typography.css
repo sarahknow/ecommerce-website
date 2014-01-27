@@ -161,6 +161,11 @@ td {
 	border-bottom: dotted 1px;
 }
 
+.title {
+	color: white;
+	font-weight:700;
+}
+	
 caption{
 	caption-side:bottom;
 	font-size: 0.8rem;
@@ -259,6 +264,16 @@ data {
 
 .space-none {
 	margin-bottom: 0;
+}
+
+.flex-img {
+	width: 100%;
+	display: block; 
+	margin-bottom:1rem;
+}
+
+.flex-img-outline {
+	border: thick white solid;
 }
 
 /*  data */

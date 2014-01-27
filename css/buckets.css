@@ -1,3 +1,11 @@
 @charset "UTF-8";
 /* CSS Document */
 
+.large-bucket {
+	background-color:#FFBFC0;
+	padding: 1.5em 3em;
+	margin:auto;
+	width: 90%;
+	text-align:center;
+	margin:auto;
+}
