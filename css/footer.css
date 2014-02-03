@@ -3,12 +3,23 @@
 
 .bottom {
 	background: #FF797C;
-	height: 12rem;
 	overflow:hidden;
 }
 
 .nav-bottom {
-	padding-top: 2rem;
-	margin:auto;
+	padding-top: 1rem;
+	margin: 0;
 	text-align: center;
+	padding-bottom: 1rem;
+}
+
+.social-icons {
+	position:relative;
+	margin:auto; 
+	text-align: center;
+}
+
+.copyright {
+	float: left;
+	padding-bottom: 1rem;
 }
