@@ -17,9 +17,11 @@
 	position:relative;
 	margin:auto; 
 	text-align: center;
+	padding-bottom: 2rem;
 }
 
 .copyright {
 	float: left;
-	padding-bottom: 1rem;
+	padding-bottom: .5rem;
+	padding-left: 1rem;
 }

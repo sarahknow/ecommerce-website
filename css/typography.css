@@ -275,5 +275,8 @@ data {
 	border: thick white solid;
 }
 
+.white {
+	color: white;
+}
 /*  data */
 
