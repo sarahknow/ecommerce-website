@@ -45,3 +45,10 @@
 	color: #000; 
 }
 	
+	
+.btn:hover,
+.btn:focus {
+	background-color: #FFB0B0;
+	background-image: linear-gradient(to bottom, #FFB0B0, #FF5F62);
+	color: white;	
+}
