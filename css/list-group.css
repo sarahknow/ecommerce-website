@@ -17,4 +17,5 @@
 
 .list-group-item-inline {
 	display: inline-block;
+	padding-right: 1rem;
 }

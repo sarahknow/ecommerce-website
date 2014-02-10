@@ -6,11 +6,15 @@
   - Bright Pink: #FF4B4E - rgb(255,75,78)
  */
 
+body {
+	margin: 0px;
+}
+
 html {
 	font: normal 100%/1.5 Merriweather,serif; /* 16px/24px */
 }
 
-h1, h2, h3, h4, h5, h6, 
+h1, h2, h3, h4, h5, h6,
 p, blockquote, ul, ol, dl, figure, 
 table
  {
@@ -278,5 +282,18 @@ data {
 .white {
 	color: white;
 }
+
+.bump {
+	padding: 1rem;
+}
+
+.center {
+	text-align: center;
+}
+
+.spacer {
+	padding-top: .5rem;
+}
+
 /*  data */
 
