@@ -1,5 +1,20 @@
+@charset "UTF-8";
+/* Responsive Setup */
+@-moz-viewport { width: device-width; scale: 1;}
+@-ms-viewport { width: device-width; scale: 1;}
+@-webkit-viewport { width: device-width; scale: 1;}
+@-o-viewport { width: device-width; scale: 1;}
+@viewport { width: device-width; scale: 1;}
+
+html{
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	-o-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+}
+
 .grid {
-	border: 1px solid red;
 	overflow: hidden;
 }
 
@@ -10,6 +25,12 @@
 
 .unit-s-1 {
 	width:100%;	
+}
+
+.unit-c-2-3{
+	width: 60%;
+	text-align:center;
+	margin-left: 15%;
 }
 
 @media only screen and (min-width: 30em) {
