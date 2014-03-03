@@ -1,0 +1,299 @@
+/*
+  Colour Palette
+  - Light Pink: #FFDBDB - rgb(255,219,219)
+  - Medium Pink: #FFC2C3 - rgb(255,194,195)
+  - Darker Pink: #FF797C - rgb(255,121,124)
+  - Bright Pink: #FF4B4E - rgb(255,75,78)
+ */
+
+body {
+	margin: 0px;
+}
+
+html {
+	font: normal 100%/1.5 Merriweather,serif; /* 16px/24px */
+}
+
+h1, h2, h3, h4, h5, h6,
+p, blockquote, ul, ol, dl, figure, 
+table
+ {
+	margin: 0 0 1.5rem;	
+}
+
+p, ul, ol, dl, blockquote, caption, .giga, .tera {
+	font-weight: 300;
+}
+
+.yotta {
+	font-size: 4.767rem ;
+	 line-height: 1.2583;
+}
+
+.zetta {
+	font-size:3.81375rem ;	
+	line-height: 1.1796;
+}
+
+h1, .exa {
+	font-size: 3.051rem;
+	line-height: 1.4746;
+}
+
+h2, .peta {
+	font-size: 2.441rem;
+	line-height: 1.2288;
+}
+
+h3, .tera{
+	font-size: 1.953rem;
+	line-height: 1.5360;
+}
+
+h4, .giga{
+	font-size: 1.563rem;
+	line-height: 1.9200;
+}
+
+h5, .mega{
+	font-size: 1.24rem;
+	line-height: 1.2000;
+}
+
+h6, .kilo{
+	font-size: 1rem;
+	line-height: 1.5000;
+}
+
+small, .milli {
+	font-size: 0.8rem;
+	line-height: 1.8750;
+}
+
+.micro {
+	font-size: 0.64rem;
+	line-height: 2.3438;
+}
+
+h1, h2, h3, h4, h5, h6,
+.brand
+ {
+	color: black;
+	font-family: Josefin Sans, sans-serif;
+	font-weight:700;
+	text-transform:uppercase;
+}
+
+.brand-face { 
+	font-family: Josefin Sans, sans-serif; 
+	text-transform:uppercase;
+}
+
+.brand-color,
+.brand-colour
+ { 
+	color: black	; 
+}
+
+::selection {
+	background-color:#FFDBDB;
+	color: black;
+}
+
+a, 
+a:link {
+	color: #FFC2C3;
+	text-decoration: none; 
+	border-bottom: 0.1em solid rgba(255,194,195.5);
+	transition: all 200ms linear; 
+}
+
+a:visited {
+	color: white;
+	border-bottom-color: rgba(255,121,124,0.5)
+}
+
+
+a:hover, 
+a:focus, 
+a:active {
+	color: #FF4B4E;
+	border-bottom-color: rgba(255,75,78, 1);
+}
+
+ul {
+	list-style-type: none; 
+}
+
+ul li {
+	position: relative;
+}
+
+ul li:before {
+	color: #000;
+	position: absolute; 
+	left: -1em;
+}
+
+hr {
+	border: 0;
+	color:#000000;
+	height: 1px;
+	background-color:#000000;
+}
+
+table{
+	background-color:#fff;
+	width:75%;
+	margin:auto;
+}
+
+th {
+	font-family: Josefin Sans, 'sans-serif';
+	text-transform:uppercase;
+	font-weight: 600;
+	color: #FF4B4E;
+	border-bottom: dotted 1px black;
+}
+
+td {
+	font-family: Merriweather, 'serif';
+	font-weight:300;
+	text-align:center;
+	padding: 8px 45px;	
+	border-bottom: dotted 1px;
+}
+
+.title {
+	color: white;
+	font-weight:700;
+}
+	
+caption{
+	caption-side:bottom;
+	font-size: 0.8rem;
+	padding-top: 1rem;
+	padding-bottom:1rem;
+}
+
+em, {
+	font-style:normal;
+	font-weight: 700;	
+	color: #FF4B4E;
+}
+
+strong,
+b {
+	font-weight:700;
+}
+
+dfn { 
+	font-style: italic; 
+	color: #FF4B4E;
+}
+
+i {
+	font-weigth: 300;
+	font-style:italic;
+}
+
+s,
+del {
+	text-decoration:line-through;
+}
+
+abbr {
+	text-transform:uppercase;
+}
+
+cite {
+	font-style: italic;
+	font-weight:400;
+}
+	
+blockquote {
+	background: #FFDBDB;
+	padding: 1.5rem;
+
+}
+
+blockquote p:before {
+  content: "“";
+  font-size: 2.5em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+
+blockquote p:after {
+	content:"”";
+	font-size: 2.5em;
+	line-height: 0.1em;
+	margin-right: 0.25em;
+	vertical-align: -0.4em;
+}
+
+q {
+	quotes:" " " " ;
+}
+
+time:hover, 
+time:focus, 
+time:active {
+	color: #FF4B4E;
+	border-bottom-color: rgba(255,75,78, 1);
+}
+
+sup, 
+sub {
+	color: #FFDBDB;
+	font-weight:300;
+}
+
+mark {
+	background-color: #FF4B4E;
+	color: white;
+}
+
+ins {
+	text-decoration:none;
+	font-style:italic;
+	font-weight:400;
+}
+	
+data {
+	text-decoration:none;
+}
+
+.space-none {
+	margin-bottom: 0;
+}
+
+.flex-img {
+	width: 100%;
+	display: block; 
+	margin-bottom:1rem;
+}
+
+.flex-img-outline {
+	border: thick white solid;
+}
+
+.white {
+	color: white;
+}
+
+.bump {
+	padding: 1rem;
+}
+
+.center {
+	text-align: center;
+}
+
+.spacer {
+	padding-top: .5rem;
+}
+
+/*  data */
+
