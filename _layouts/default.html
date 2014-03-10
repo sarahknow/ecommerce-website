@@ -26,14 +26,14 @@
 <header>
 	<div class="nav-top"> 
 		<div class="circle-fixed">
-	 		<img src="../images/logo.svg" class="logo" alt="logo-type">
+	 		<img class="logo" src="{{site.baseurl}}/images/buds.jpg" alt="logo-type">
 		</div>
 				<ul class="list-group mega">
-					 <li class="list-group-item-inline brand-face"><a href="{{site.baseurl}}/">Home</a></li>
+					 <li class="list-group-item-inline brand-face"><a class="{% if page.url == '/' %}current{% endif %}" href="{{site.baseurl}}/">Home</a></li>
 					<li class="list-group-item-inline brand-face"><a href="#">/</a></li>
-					<li class="list-group-item-inline brand-face"><a href="{{site.baseurl}}/about/">About</a></li>
+					<li class="list-group-item-inline brand-face"><a class="{% if page.url contains '/about/' %}current{% endif %}" href="{{site.baseurl}}/about/">About</a></li>
 					<li class="list-group-item-inline brand-face"><a href="#">/</a></li>
-					<li class="list-group-item-inline brand-face"><a href="{{site.baseurl}}/thank-you/">Thank You</a></li>
+					<li class="list-group-item-inline brand-face"><a class="{% if page.url == '/thank-you/' %}current{% endif %}" href="{{site.baseurl}}/thank-you/">Thank You</a></li>
 					<li class="list-group-item-inline brand-face"><a href="#">/</a></li>
 				</ul>
 			

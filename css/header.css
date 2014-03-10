@@ -16,3 +16,8 @@
 .circle-fixed {
 	padding: 1rem;
 }
+
+.current {
+	background-color: #EAEAEA;
+	padding: 4px 15px;
+}
