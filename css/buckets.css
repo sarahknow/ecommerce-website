@@ -14,11 +14,11 @@
 .small-bucket {
 	width: 100%;
 	background: #F7F7F7;
-	padding: 1rem 2rem;
 	overflow:auto;
 	display: inline-block;
 	float: left;
 	margin: auto;
+	text-align:center;
 }
 
 .media-img {

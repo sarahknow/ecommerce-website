@@ -21,3 +21,10 @@
 	background-color: #EAEAEA;
 	padding: 4px 15px;
 }
+
+.banner { 
+	background: url("../images/banner.jpg") no-repeat center center;
+	background-size: cover; 
+	text-align: center;
+	padding: 2rem;
+}
