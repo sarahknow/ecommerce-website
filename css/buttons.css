@@ -12,6 +12,7 @@
 .btn,
 .btn:link, 
 .btn:visited {
+	margin-top: .5rem;
 	display: inline-block;
 	padding: .5em 1.5em;
 	background-color: #FFDBDB; 

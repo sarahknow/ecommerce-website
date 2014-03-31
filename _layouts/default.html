@@ -36,6 +36,8 @@
 					<li class="list-group-item-inline brand-face"><a href="#">/</a></li>
 					<li class="list-group-item-inline brand-face"><a class="{% if page.url == '/thank-you/' %}current{% endif %}" href="{{site.baseurl}}/thank-you/">Thank You</a></li>
 					<li class="list-group-item-inline brand-face"><a href="#">/</a></li>
+					<li class="list-group-item-inline brand-face"><a class="{% if page.url == '/shop/' %}current{% endif %}" href="{{site.baseurl}}/shop/">Shop</a></li>
+					<li class="list-group-item-inline brand-face"><a href="#">/</a></li>
 				</ul>
 			
 		<div>
@@ -49,7 +51,7 @@
 
 {% if page.showbanner %}
 <div class="banner">
-	<h2>{{page.bannertext}}</h2>
+	<h2 class="white">{{page.bannertext}}</h2>
 </div>
 {% endif %}
 
@@ -65,13 +67,15 @@
 					<li class="list-group-item-inline brand-face"><a href="#">/</a></li>
 					<li class="list-group-item-inline brand-face"><a href="{{site.baseurl}}/thank-you/">Thank You</a></li>
 					<li class="list-group-item-inline brand-face"><a href="#">/</a></li>
+					<li class="list-group-item-inline brand-face"><a class="{% if page.url == '/shop/' %}current{% endif %}" href="{{site.baseurl}}/shop/">Shop</a></li>
+					<li class="list-group-item-inline brand-face"><a href="#">/</a></li>
 				</ul>
 			</div>
 	<div class="social-icons">
 		<ul class="list-group mega">
-			 <li class="list-group-item-inline brand-face"><a href="#"><img src="../images/facebook.png"></a></li>
-			<li class="list-group-item-inline brand-face"><a href="#"><img src="../images/twitter.png"></a></li>
-			<li class="list-group-item-inline brand-face"><a href="#"><img src="../images/linkedin.png"></a></li>
+			 <li class="list-group-item-inline brand-face"><a href="#"><img src="{{site.baseurl}}/images/facebook.png"></a></li>
+			<li class="list-group-item-inline brand-face"><a href="#"><img src="{{site.baseurl}}/images/twitter.png"></a></li>
+			<li class="list-group-item-inline brand-face"><a href="#"><img src="{{site.baseurl}}/images/linkedin.png"></a></li>
 		</ul>
 	</div>
 		<h6 class="copyright white micro"> © Sarah Knowles, Buds and Branches 2014 </h6>
