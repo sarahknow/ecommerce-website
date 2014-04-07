@@ -1,11 +1,11 @@
 ---
 layout: shop
-title: Infinity Scarf
+title: Red Riding Hood
 type: posters
-description: The poem "Let Me Count the Ways" by Elizabeth Browning
-size: 4x6, 8x10, 11x17, 36x48 
+description: Linocut Print of Red Riding Hood
+size: 11"x17" 
 category: shop
-image: infinity.jpg
-price: $99.99
+image: red.jpg
+price: $45
 ---
 

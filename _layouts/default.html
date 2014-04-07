@@ -24,11 +24,12 @@
 </head>
 <body>
 
-<header>	
+<header class="masthead" role="banner">	
 	<div class="nav-top"> 
 		<div class="circle-fixed">
-	 		<img class="logo" src="{{site.baseurl}}/images/buds.jpg" alt="logo-type">
+	 		<img class="logo" src="{{site.baseurl}}/images/buds.svg" alt="logo-type">
 		</div>
+			<nav role="navigation">
 				<ul class="list-group mega">
 					 <li class="list-group-item-inline brand-face"><a class="{% if page.url == '/' %}current{% endif %}" href="{{site.baseurl}}/">Home</a></li>
 					<li class="list-group-item-inline brand-face"><a href="#">/</a></li>
@@ -39,9 +40,10 @@
 					<li class="list-group-item-inline brand-face"><a class="{% if page.url == '/shop/' %}current{% endif %}" href="{{site.baseurl}}/shop/">Shop</a></li>
 					<li class="list-group-item-inline brand-face"><a href="#">/</a></li>
 				</ul>
+			</nav>
 			
 		<div>
-			<form class="box-form">
+			<form method="get" action="{{site.baseurl}}/search/" class="box-form" role="search">
     			<input type="text" class="search brand-face kilo">
    				 <button type="submit" class="btn btn-alt brand-face kilo">Search</button>
 			</form>
@@ -73,11 +75,11 @@
 			</div>
 	<div class="social-icons">
 		<ul class="list-group mega">
-			 <li class="list-group-item-inline brand-face"><a href="#"><img src="{{site.baseurl}}/images/facebook.png"></a></li>
-			<li class="list-group-item-inline brand-face"><a href="#"><img src="{{site.baseurl}}/images/twitter.png"></a></li>
-			<li class="list-group-item-inline brand-face"><a href="#"><img src="{{site.baseurl}}/images/linkedin.png"></a></li>
+			 <li class="list-group-item-inline brand-face"><a href="#"><img src="{{site.baseurl}}/images/facebook.png" alt="link to facebook"></a></li>
+			<li class="list-group-item-inline brand-face"><a href="#"><img src="{{site.baseurl}}/images/twitter.png" alt="link to twitter"></a></li>
+			<li class="list-group-item-inline brand-face"><a href="#"><img src="{{site.baseurl}}/images/linkedin.png" alt="link to linkedin"></a></li>
 		</ul>
-	</div>
+	</div role="contentinfo">
 		<h6 class="copyright white micro"> © Sarah Knowles, Buds and Branches 2014 </h6>
 	</div>
 </footer>

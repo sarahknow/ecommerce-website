@@ -5,35 +5,42 @@ meta: Buds and Branches, a unique online shop specializing in beautiful prints a
 showbanner: yes
 bannertext: This is the home page. Welcome!
 ---
-
+<main role="main">
 <div class="grid">
 	<div class="unit unit-c-2-3 bump">
-		<h1 class="peta"> Buds and Branches </h1>
-		<p> Welcome! Here at Buds and Branches we love all things well designed. Here we have a unique collection of limited edition and personlizable items perfect for your own beautiful collection or to gift to a friend. The hunt end here to find something you love. </p>
+		<h1 class="peta clear"> Buds and Branches </h1>
+		<p class="small"> Welcome! Here at Buds and Branches we love all things well designed. Here we have a unique collection of limited edition and personlizable items perfect for your own beautiful collection or to gift to a friend. The hunt end here to find something you love. </p>
 	</div>
 </div>
 
 <div class="grid">
 	<div class="unit unit-s-1 unit-m-1 unit-l-1">
-		{% include promo-small.html title="Welcome to Amelia Badelia our Guest Artist this month" desc="A graphic designer and photographer she combines a beautiful blend of type and imagery" image="explore.jpg" %}
+		{% include promo-small.html title="New Products every Month!" desc="Make sure you check in regularly, every month we feature a new artist." image="explore.jpg" %}
 	</div>
 </div>
 
 <div class="grid-grey grid">
 	
+	<a href="{{site.baseurl}}/shop/">
 	<div class="unit unit-s-1 unit-m-1-3 unit-l-1-3">
-		{% include promo-small.html title="Handmade Scarves" desc="Infinity Loops 50% OFF!" blurb="Limited time offer" image="stripes.jpg" %}
+		{% include promo-small.html title="New Posters" desc="This month's guest artist and her contributions!" image="shop/rose.jpg" %}
 	</div>
+	</a>
+
+	<a href="{{site.baseurl}}/shop/">
+	<div class="unit unit-s-1 unit-m-1-3 unit-l-1-3">
+		{% include promo-small.html title="Nature's Beauty" desc="Inspire your life and home with these pieces!" image="shop/pine.jpg" %}
+	</div>
+	</a>
 	
+	<a href="{{site.baseurl}}/shop/">
 		<div class="unit unit-s-1 unit-m-1-3 unit-l-1-3">
-		{% include promo-small.html title="Fan Art" desc="Your favourite films and our favourite pieces" blurb="New Artists" image="mountain.jpg" %}
+		{% include promo-small.html title="Inspired by Books" desc="Your favourite Child Stories and our favourite pieces" image="shop/red.jpg" %}
 	</div>
-	
-	<div class="unit unit-s-1 unit-m-1-3 unit-l-1-3">
-		{% include promo-small.html title="Words Abound" desc="Inspire your life and home with these pieces!" blurb="Guest Artists" image="travel.png" %}
-	</div>
-	
-</div>	
+	</a>
+
+</div>
+</main>	
 
 
 

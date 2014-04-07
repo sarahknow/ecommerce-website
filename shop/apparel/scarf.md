@@ -1,10 +1,10 @@
 ---
 layout: shop
-title: Scarves
+title: The Flower
 type: posters
-description: The poem "Let Me Count the Ways" by Elizabeth Browning
-size: 4x6, 8x10, 11x17, 36x48 
+description: Black and White Flower Print
+size: 11x17 
 category: shop
-image: 120.jpg
-price: $99.99
+image: rose.jpg
+price: $15
 ---

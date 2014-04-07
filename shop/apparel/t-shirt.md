@@ -1,10 +1,10 @@
 ---
 layout: shop
-title: T-Shirts
+title: In the Morning
 type: posters
-description: The poem "Let Me Count the Ways" by Elizabeth Browning
-size: 4x6, 8x10, 11x17, 36x48 
+description: Photographic print of pine needles
+size: 18x24
 category: shop
-image: shirt.jpeg
-price: $99.99
+image: pine.jpg
+price: $24
 ---

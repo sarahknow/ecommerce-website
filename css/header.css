@@ -2,7 +2,7 @@
 /* CSS Document */
 
 .nav-top {
-	background: #FF797C;
+	background: #ffdd00;
 	overflow:hidden;
 	text-align:center;
 	width:100%;
@@ -26,6 +26,6 @@
 	background: url("../images/banner.jpg") no-repeat center center;
 	background-size: cover; 
 	text-align: center;
-	padding: 4rem;
+	padding: 5rem;
 	color:#FFFFFF;
 }

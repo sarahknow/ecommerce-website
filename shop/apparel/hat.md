@@ -1,10 +1,10 @@
 ---
 layout: shop
-title: Hats
+title: I Love Lucy
 type: posters
-description: The poem "Let Me Count the Ways" by Elizabeth Browning
-size: 4x6, 8x10, 11x17, 36x48 
+description: Lucille Ball geometric illustration by Sarah Knowles
+size: 25"x25" 
 category: shop
-image: hat.jpg
-price: $3.99
+image: lucy.jpg
+price: $24
 ---

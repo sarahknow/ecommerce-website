@@ -102,14 +102,14 @@ h1, h2, h3, h4, h5, h6,
 
 a, 
 a:link {
-	color: #FFC2C3;
+	color: black;
 	text-decoration: none; 
 	border-bottom: 0.1em solid rgba(255,194,195.5);
 	transition: all 200ms linear; 
 }
 
 a:visited {
-	color: #FFA8A8;
+	color: black;
 	border-bottom-color: rgba(255,121,124,0.5)
 }
 
@@ -117,8 +117,19 @@ a:visited {
 a:hover, 
 a:focus, 
 a:active {
-	color: #FF4B4E;
+	color: grey;
 	border-bottom-color: rgba(255,75,78, 1);
+}
+
+a:hover,
+a:active {
+	/* It's okay to remove the focus rectable from mouse-based actions */
+	outline:none;
+}
+
+a:focus {
+	/* Focus MUST ALWAYS have a focus rectangle */
+	outline: 3px solid #00d395;
 }
 
 ul {
@@ -338,6 +349,10 @@ data {
 
 .float-right {
 	float:right;
+}
+
+.block {
+	display: block;
 }
 
 /*  data */

@@ -1,10 +1,10 @@
 ---
 layout: shop
-title: Long Sleeve Shirts
+title: Much Ado about Nothing
 type: posters
-description: The poem "Let Me Count the Ways" by Elizabeth Browning
-size: 4x6, 8x10, 11x17, 36x48 
+description: Shakespear's Much Ado about Nothing
+size: 36x48 
 category: shop
-image: long-sleeve.jpg
-price: $99.99
+image: poster.jpg
+price: $20
 ---

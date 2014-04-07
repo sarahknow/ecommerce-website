@@ -1,10 +1,10 @@
 ---
 layout: shop
-title: Count the Ways
-description: The poem "Let Me Count the Ways" by Elizabeth Browning
+title: To be Lost
+description: "We Travel to be Lost" the words of Ray Bradbury
 size: 4x6, 8x10, 11x17, 36x48 
 type: typography
 category: shop
-image: paper.jpg
+image: travel.jpg
 price: $99.99
 ---
