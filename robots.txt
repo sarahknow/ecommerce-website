@@ -1,0 +1,7 @@
+
+Sitemap: http://sarahknow.github.io/ecommerce-website/sitemap.xml
+
+User-agent: *
+
+Disallow: /tmp/
+Disallow: /assets/
