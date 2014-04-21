@@ -318,6 +318,10 @@ data {
 	padding-right: 1rem;
 }
 
+.forty {
+	margin-left: 40px;
+}
+
 .bump-text {
 	padding-left: 1rem;
 }
